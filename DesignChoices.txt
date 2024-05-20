@@ -1,0 +1,7 @@
+- Used Bootstrap CSS Library in the implementation for mobile responsiveness.
+
+- Adopted a "Green" theme to give the page a popping colour.
+
+- Included a form in the footer section of the page for the submission of email addresses.
+
+- Used CSS to adding hover effects to components on the page.
