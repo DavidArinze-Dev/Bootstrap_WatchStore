@@ -1,0 +1,120 @@
+:root {
+    --green: #38ff1e;
+    --hoverGreen: #167a09;
+}
+
+.mainimage {
+    background-image: url('./images/2.jpg');
+    min-height: 90vh;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.455);
+    background-blend-mode: multiply;
+}
+
+.heroText {
+    padding-top: 150px;
+}
+
+.navbar .navbar-brand,
+.navbar-nav .nav-link,
+.heroText .heroText1,
+.card-img-overlay,
+.stars i,
+.menu-item-content h5,
+.productText {
+    color: var(--green);
+    font-weight: bold;
+}
+
+.navbar .navbar-brand:hover,
+.navbar-nav .nav-link:hover,
+.heroText .heroText1:hover,
+.productText:hover {
+    color: var(--hoverGreen);
+    cursor: pointer;
+}
+
+button.btn {
+    color: black;
+    background-color: var(--green);
+}
+
+button.btn:hover,
+button.btn1:hover {
+    color: white;
+    background-color: var(--hoverGreen);
+}
+
+.navbar-collapse .form-control {
+    border: 1px solid var(--green)
+}
+
+.navbar-collapse .form-control:hover {
+    border: 1px solid var(--hoverGreen)
+}
+
+/*  */
+
+div.menu-item,
+div.card {
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+div.menu-item:hover,
+div.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 var(--hoverGreen);
+
+    .menu-item-content h5 {
+        color: var(--hoverGreen);
+    }
+
+    img {
+        opacity: 0.7;
+    }
+}
+
+div.card {
+    border: none;
+}
+
+.product {
+    background-color: #38ff1e14;
+}
+
+.brands .col:hover {
+    translate: 2px 3px;
+}
+
+.footer {
+    background-color: var(--green);
+    padding: 30px 0;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+label.footerheader {
+    color: rgba(0, 0, 0, 0.615);
+}
+
+label.footerheader:hover {
+    color: black;
+}
+
+button.btn1 {
+    color: black;
+    background-color: white;
+    border-radius: 7px;
+    padding: 5px 15px;
+    border: 2px solid var(--hoverGreen);
+    font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+    .mainimage {
+        min-height: 100vh;
+    }
+}
